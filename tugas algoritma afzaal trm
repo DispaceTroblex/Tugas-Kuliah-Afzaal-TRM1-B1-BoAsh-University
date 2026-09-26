@@ -1,0 +1,21 @@
+# Latihan 2: Perhitungan Total Belanja Sederhana
+
+nama_barang = input("Masukkan nama barang: ")
+harga = float(input("Masukkan harga barang: Rp "))
+jumlah = int(input("Masukkan jumlah barang: "))
+
+# Menghitung total
+total = harga * jumlah
+
+# Menghitung diskon 10%
+diskon = total * 0.10
+total_bayar = total - diskon
+
+# Menampilkan ringkasan transaksi
+print("\n=== RINGKASAN TRANSAKSI ===")
+print("Nama Barang  :", nama_barang)
+print("Harga        : Rp", harga)
+print("Jumlah       :", jumlah)
+print("Total        : Rp", total)
+print("Diskon 10%   : Rp", diskon)
+print("Total Bayar  : Rp", total_bayar)
